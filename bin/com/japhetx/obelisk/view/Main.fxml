@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.japhetx.obelisk.MainController">
+   <children>
+      <AnchorPane id="top-bar" prefHeight="231.0" prefWidth="750.0">
+         <children>
+            <Label layoutX="86.0" layoutY="70.0" text="EDRES" textFill="#8bc34a">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="229.0" layoutY="81.0" text="CONSTRUCTION &amp; SUPPLY" textFill="#f7f7f7">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="126.0" layoutY="134.0" text="GENERAL ENGINEERING &amp; GENERAL BUILDING CONTRACTOR" textFill="#f7f7f7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Button fx:id="btnEstimateShow" focusTraversable="false" layoutX="78.0" layoutY="279.0" mnemonicParsing="false" onAction="#estimateShowSignIn" prefHeight="60.0" prefWidth="292.0" text="Construction Cost Estimate" textFill="#f7f7f7">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPayrollShow" focusTraversable="false" layoutX="393.0" layoutY="279.0" mnemonicParsing="false" onAction="#payrollShowSignIn" prefHeight="60.0" prefWidth="292.0" text="Payroll Management System" textFill="#f7f7f7">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
