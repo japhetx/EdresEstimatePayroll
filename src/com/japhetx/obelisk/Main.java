@@ -16,7 +16,7 @@ public class Main extends Application {
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("/com/japhetx/obelisk/view/Main.css").toExternalForm());
 			primaryStage.getIcons().add(new Image("/com/japhetx/obelisk/resources/icon.png"));
-			primaryStage.setTitle("Edres Construction & Supply - Construction Cost Estimate - Payroll Management System");
+			primaryStage.setTitle("Edres Construction & Supply");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
